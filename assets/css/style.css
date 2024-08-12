@@ -1,0 +1,193 @@
+:root {
+    --font-family: "Poppins", sans-serif;
+    --second-family: "PT Sans", sans-serif;
+    --third-family: "Potta One", sans-serif;
+  }
+ul, ol, li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #353535;
+}
+
+nav .container ul li a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200% ;
+    color: #353535;
+    padding: 18px 25px !important;
+    position: relative;
+  }
+
+nav .container ul li a::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: 15px;
+    background-color: #353535;
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+nav .container ul li a:hover::before{
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+#banner .container .row .col-lg-6 span{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #353535;
+}
+
+#banner .container .row .col-lg-6 h2{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 64px;
+    color: #353535;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#banner .container .row .col-lg-6 p{
+    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: #353535;
+}
+
+#banner .container .row .col-lg-6 .button a{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 180%;
+    color: #fff;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 45px;
+    background-color: #FFCC00;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+#banner .container .row .col-lg-6 .button a i{
+    padding-right: 45px;
+    padding-left: 11px;
+    display: inline-block;
+}
+
+#banner .container .row .col-lg-6 .button .a2{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    color: #353535;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 19px;
+    background-color: transparent;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+#banner .container .row .col-lg-6 .button .a2:hover{
+    background-color: #FFCC00;
+    color: #fff;
+    border: none;
+}
+
+#banner .container .row .col-lg-6 .button .a2 i{
+    padding-right: 19px;
+    padding-left: 11px;
+    display: inline-block;
+}
+
+#banner .container .row .col-lg-6 .button{
+    margin-top: 45px;
+    margin-bottom: 66px;
+}
+
+#banner .container .row .col-lg-6 .follow a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 180%;
+    color: #353535;
+    padding-right: 32px;
+    display: inline-block;
+}
+
+#banner .container .row .col-lg-6 .follow i{
+    border-radius: 100%;
+    background-color: #F4F3F3;
+    padding: 10px;
+    margin-right: 16px;
+    font-weight: 500;
+}
+
+#banner .container .row .col-lg-6 .follow i:hover{
+    background-color: #FFCC00;
+    color: #fff;
+}
+#banner .container .row .mouse i{
+    font-size: 2rem;
+    display: inline-block;
+    padding-bottom: 50px;
+}
+
+.navbar-toggler{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+@media (max-width: 767.98px) { 
+    nav{
+        box-shadow: 3px 3px 20px #88888875;
+        margin-bottom: 30px !important;
+    }
+ }
+
+ .offcanvas-body ul li a{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 200% ;
+    color: #353535;
+    padding: 18px 0px !important;
+    position: relative;
+  }
+
+  .offcanvas-body ul li a::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: 15px;
+    background-color: #353535;
+    transition: 0.4s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.offcanvas-body ul li a:hover::before{
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+}
